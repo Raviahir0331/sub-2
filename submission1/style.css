@@ -1,0 +1,116 @@
+    h1 {
+        color: orange;
+        font-style: oblique;
+        font-size: xx-large;
+        text-align: center;
+
+    }
+    h2{
+        margin-top: 40px;
+    }
+
+    span {
+        color: whitesmoke;
+        font-style: oblique;
+        font-size: xx-large;
+
+    }
+
+    p.card-text {
+        background-color: wheat;
+    }
+
+        
+      
+
+    .overview {
+        text-align: center;
+        background-color: darkolivegreen;
+    }
+
+    .overview p {
+        background: white;
+        margin: 15px;
+    }
+
+    .image {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .img1 {
+        margin-right: 200px;
+    }
+
+    .footer {
+        background-color: wheat;
+
+
+    }
+
+    .info {
+
+        text-align: center;
+
+        margin-top: 10px;
+    }
+
+    .link {
+
+        text-align: center;
+        list-style: none;
+        padding-top: 50px;
+        font-size: larger;
+
+
+
+    }
+
+    .map {
+
+        text-align: center;
+        margin-top: 100px;
+
+    }
+
+    .usefulllink {
+
+        text-align: center;
+        font-size: larger;
+
+        list-style: none;
+        padding-top: 50px;
+
+    }
+
+    .nav {
+        font-size: x-large;
+
+    }
+
+    p.adress {
+        font-size: larger;
+    }
+    .marginset{
+        margin-top: 25px;
+    }
+    .atal{
+        margin-left: 130px;
+        margin-bottom: 50px;
+    }
+    p{
+        font-size: x-large;
+        margin-top: 60px;
+    }
+    .information{
+        text-align: center;
+        margin-top: 10-0px;
+    }
+    h2{
+        color: green;
+        text-align: center;
+    }
+
+
+

@@ -1,0 +1,229 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiels</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+<link rel="stylesheet" href="tilesstyle.css">
+<script src="http://www.w3schools.com/lib/w3data.js"></script>
+<script>
+  function includeHTML() {
+    var z, i, elmnt, file, xhttp;
+    /* Loop through a collection of all HTML elements: */
+    z = document.getElementsByTagName("*");
+    for (i = 0; i < z.length; i++) {
+      elmnt = z[i];
+      /*search for elements with a certain atrribute:*/
+      file = elmnt.getAttribute("w3-include-html");
+      if (file) {
+        /* Make an HTTP request using the attribute value as the file name: */
+        xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function() {
+          if (this.readyState == 4) {
+            if (this.status == 200) {elmnt.innerHTML = this.responseText;}
+            if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+            /* Remove the attribute, and call this function once more: */
+            elmnt.removeAttribute("w3-include-html");
+            includeHTML();
+          }
+        }
+        xhttp.open("GET", file, true);
+        xhttp.send();
+        /* Exit the function: */
+        return;
+      }
+    }
+  }
+  </script>
+
+</head>
+<body>
+  <div w3-include-html="tilesheader.html"></div>
+<script>
+  includeHTML();
+  </script>
+  <br>
+  
+<div class="container-fluid">
+    <div class="slide container-fluid">
+     <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+    <div class="carousel-item active">
+    <img src="https://www.kajariaceramics.com/images/slider/slider-indias-number-1-tile-company.jpg"  alt="">
+     </div>
+    <div class="carousel-item">
+    <img src="https://www.kajariaceramics.com/images/slider/superbrand.jpg" alt="">
+    </div>
+    <div class="carousel-item">
+    <img src="https://www.kajariaceramics.com/images/slider/slider-award.jpg" alt="">
+    </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+    </button>
+    </div>
+    </div>
+    </div>
+    <hr>
+  <div class="icon2 container">
+<div class="row "> 
+<div class="col-md-6">
+ <img src="https://www.kajariaceramics.com/assets/images/floortiles.jpg" width="90%" alt="">
+ <p><b>MADHAV's range of luxurious floor tiles integrates technological expertise with exquisite designs. Each tile is crafted using ultra-modern technology to ensure high quality.</b></p>
+  
+</div><!-- floor 6-->
+<div class="col-md-6">
+  <div class=" icon container-fluid">
+    <div class="row">
+      <div class="col-md-6">
+        <img src="bedroom1.png" alt="">
+        <h4>Bedroom Floor tiles</h4>
+   <button class="btn btn-outline-success" type="Register">Explore All</button></a>
+    <li><a href="#"></li></a>
+        </div>
+      <div class="col-md-6">
+        <img src="outdoor1.png" alt="">
+<h4>outdoor Floor tiles </h4>
+     <button class="btn btn-outline-success" type="Register">Explore All</button></a>
+    <li><a href="#"></a></li>
+
+      </div>
+    </div>
+    <hr>
+    <div class="row">
+      <div class="col-md-6">
+        <img src="livingroom1.png" alt="">
+        <h4>Living Room Floor Tiles</h4>
+   <button class="btn btn-outline-success" type="Register">Explore All</button></a>
+    <li><a href="#"></a></li>
+      </div>
+      <div class="col-md-6">
+        <img src="commercial1.png" alt="">
+        <h4> commerciall Floor Tiles</h4>
+     <button class="btn btn-outline-success" type="Register">Explore All</button></a>
+    <li><a href="#"></a></li>
+      
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+<hr>
+    <!--2nd part-->
+    <div class="icon1 container-fluid">
+      <div class="row">
+        
+        <div class="col-md-6">
+          <div class=" icon container">
+            <div class="row">
+              <div class="col-md-6">
+                <img src="bathroomtiles.png" alt="">
+                <h4>Bathroom wall tiles</h4>
+                <button class="btn btn-outline-success" type="Register">Explore All</button></a>
+                <li><a href="#"></a></li>
+                </div>
+              <div class="col-md-6">
+                <img src="kitchentiles.png" alt="">
+        <h4>kitchen wall tiles </h4>
+        <button class="btn btn-outline-success" type="Register">Explore All</button></a>
+        <li><a href="#"></a></li>
+        
+              </div>
+            </div>
+            <hr>
+            <div class="row">
+              <div class="col-md-6">
+                <img src="livingroom.png" alt="">
+                <h4>Living Room Wall Tiles</h4>
+                <button class="btn btn-outline-success" type="Register">Explore All</button></a>
+                <li><a href="#"></a></li>
+                
+              </div>
+              <div class="col-md-6">
+                <img src="outdoor.png" alt="">
+                <h4>Outdoor Wall Tiles</h4>
+                <button class="btn btn-outline-success" type="Register">Explore All</button></a>
+                <li><a href="#"></a></li>
+              </div>
+            </div>
+          </div>
+        </div>
+
+       <div class="col-md-6">
+        <div class="wall">
+ 
+   <img src="https://www.kajariaceramics.com/assets/images/walltiles.jpg" width="90%" alt="">
+   <p><b>
+    MADHAV brings to you premium wall tiles that are detailed with perfection. Each tile is made using state of the art technology making them strong, durable & easy to maintain.
+  </b></p>
+</div>
+  </div>
+</div>     
+</div>
+<hr>
+<!--  overview -->
+<div class=" about container-fluid">
+<h2><b>About Ciramic</b> </h2>
+<p>MADHAV, the largest manufacturer of ceramic and vitrified tiles in India. It has an annual aggregate capacity of 81.55 mn. sq. meters, distributed across seven plants - Sikandrabad in Uttar Pradesh, Gailpur & Malootana in Rajasthan, Srikalahasti in Andhra Pradesh, Balanagar in Telangana and two plants in Gujarat. Equipped with cutting-edge technology, we strive to deliver quality products and services to our customers. Our team of experts work around the clock to ensure that the quality of our product is never compromised.
+</p>
+<br>
+<p>In order to cater to the specific needs of our customers we produce various categories of tiles, including kitchen tiles, bathroom tiles, wall tiles, floor tiles and exterior wall tiles. We aim at producing tiles that complement the distinctive style of our customers and cater to the vast needs of Indian audience. All of our tiles are crafted with intense care using state-of-the-art technology to ensure that we live up to the expectations of our buyers. Choicest of materials are used to produce our magnificent range of products.
+</p>
+
+</div>
+<hr>
+
+ <!-- div 2-->
+
+ <div class="trending container-fluid">
+   <h2 style="margin-right: 500px;"><b>Trending Products</b></h2>
+   <div class=" row photo">
+     <div class="col-md-4">
+       <img src="https://www.kajariaceramics.com/assets/images/newlaunches1.jpg" alt="">
+       <span> The Ultima - 120*240cm</span>
+       <p><b>The Ultima, an extra-large Vitrified Slabs by Kajaria, is bigger than your dreams. While their large size exuberates the grandeur of real marble, their stunning looks charm connoisseurs across the globe.</b></p>
+     </div>
+     <div class="col-md-4">
+       <img src="https://www.kajariaceramics.com/assets/images/newlaunches2.jpg" alt="">
+       <span> Gres Tough</span>
+       <p><b>The Gres Tough Slabs Collection reproduces the extraordinarily elegant details and natural irregularities of Italian Marble, rich in veining, streaks, marbling and knots.
+      </b></p>
+       </div>
+       <div class="col-md-4">
+         <img src="https://www.kajariaceramics.com/images/newlaunch_vitronite.jpg" alt="">
+         <span>Vitronite - 80*240cm</span>
+         <p><b>New Age Modern Counter Tops: The incredible range of slabs are designed for modern application and to create a chic and urban aura for a space.</b></p><br>
+       <br>
+        </div>
+     </div>
+   </div>
+  
+    <div class="kitchen container-fluid">
+      
+      
+    <div class="kit">
+      <h5><b>KITCHEN TILES</b> </h5>
+      <h6><b>Protects from Moisture With so much plumbing behind the walls in your kitchen, there's a minimal chance of water damage. Even the smallest amount of water or moisture can lead to water damage.</b></h6>
+</div>
+  
+    
+    
+   </div>
+   
+   
+<div w3-include-html="tilesfooter.html"></div>
+    <!--  End of body -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+</div>
+</body>
+</html>
